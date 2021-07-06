@@ -1,6 +1,7 @@
 {
   "name": "testo",
   "version": "1.0.0",
+  "type": "module",
   "description": "compilation exercises of testing",
   "main": "index.js",
   "scripts": {
