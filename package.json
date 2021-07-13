@@ -5,7 +5,7 @@
   "description": "compilation exercises of testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/anvlbl/testo/issues"
   },
-  "homepage": "https://github.com/anvlbl/testo#readme"
+  "homepage": "https://github.com/anvlbl/testo#readme",
+  "dependencies": {
+    "power-assert": "^1.6.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
 }
