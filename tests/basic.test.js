@@ -1,3 +1,4 @@
+import {strict as assert} from 'assert';
 import func from '../src/capitalize.js';
 
 if (func('test') !== 'Test') {
